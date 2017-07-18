@@ -44,7 +44,7 @@
 	padding: 20px 3px 5px 3px;
   opacity:.7;
 }
-
+@media (max-width: 1024px) {
 .header {
     position: relative;
     margin-bottom:-76px;
@@ -52,3 +52,4 @@
     height:auto;
     transition:margin-bottom .28s ease 0s, background .65s cubic-bezier(0.55, 0.06, 0.35, 0.38) 0s;
   }
+}
